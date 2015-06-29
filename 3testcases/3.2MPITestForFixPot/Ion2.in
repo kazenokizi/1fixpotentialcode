@@ -1,0 +1,108 @@
+# fix all positions and run simulation
+
+units		real
+dimension	3
+boundary	p p p
+
+atom_style	full
+read_restart	Ion1.restart
+
+#set		atom   1290   type   7
+
+neighbor	2.0 bin
+neigh_modify	delay 0 every 1 check yes
+
+pair_style	lj/cut/coul/cut 16.0 16.0  
+
+bond_style	harmonic
+bond_coeff	1 2500.0 2.71
+bond_coeff	2 2500.0 3.82
+
+angle_style	harmonic
+angle_coeff	1 2500.0 116.0
+
+mass		1 	67.07   # C1
+mass		2 	15.04	# C2
+mass	        3       57.12	# C3	
+mass		4      144.96   # A
+mass		5	12.01	# left pore carbon
+mass		6	12.01	# right pore carbon
+mass		7	 1.00   # test atom
+
+# LJ potentials
+# LJ w/ epsilon, sigma
+# Imidazolium Ionic Liquid Interfaces with Vapor and Graphite:
+# Interfacial Tension and Capacitance from Coarse-Grained
+# Molecular Simulations J. Phys. Chem. C 2011, 115, 16613-16618
+# Charge should be 0.4374/0.1578/0.1848/-0.7800
+
+# An Improved Four-Site Ionic Liquid Model
+# J. Phys. Chem. B 2010, 114, 12629-12631
+
+# Water conduction through the hydrophobic channel of a
+# carbon nanotube
+# G. Hummer, J. C. Rasaiah & J. P. Noworyta
+# Nature 414, 188-190 (8 November 2001) | doi:10.1038/35102535
+
+pair_coeff      1  1        0.61185000        4.38000000
+pair_coeff      1  2        0.22944454        3.89500000
+pair_coeff      2  2        0.08604200        3.41000000
+pair_coeff      1  3        0.51731127        4.71000000
+pair_coeff      2  3        0.19399240        4.22500000
+pair_coeff      3  3        0.43738000        5.04000000
+pair_coeff      1  4        0.82991538        4.72000000
+pair_coeff      2  4        0.31121934        4.23500000
+pair_coeff      3  4        0.70168274        5.05000000
+pair_coeff      4  4        1.12570000        5.06000000
+pair_coeff      1  5        0.22938854        3.89000000
+pair_coeff      2  5        0.08602100        3.40500000
+pair_coeff      3  5        0.19394504        4.22000000
+pair_coeff      4  5        0.31114338        4.23000000
+pair_coeff      5  5        0.08600000        3.40000000
+pair_coeff      1  6        0.22938854        3.89000000
+pair_coeff      2  6        0.08602100        3.40500000
+pair_coeff      3  6        0.19394504        4.22000000
+pair_coeff      4  6        0.31114338        4.23000000
+pair_coeff      5  6        0.08600000        3.40000000
+pair_coeff      6  6        0.08600000        3.40000000
+pair_coeff	1  7	0	0
+pair_coeff	2  7	0	0
+pair_coeff	3  7	0	0
+pair_coeff	4  7	0	0
+pair_coeff	5  7	0	0
+pair_coeff	6  7	0	0
+pair_coeff	7  7	0	0
+
+# define groups
+group		Ion type 1 2 3 4
+group		pos type 1 2 3
+group		neg type 4
+group		cat type 5
+group		ani type 6
+group           fix type 5 6
+#group		rerun type 7
+
+compute		tempIon Ion temp
+
+thermo		1
+thermo_modify	temp tempIon
+thermo_style    custom ecoul
+
+dump		1  all custom 1 charge.dump  id type x y z q
+
+reset_timestep	0
+
+# change the charge to 0.0 for later comparison
+variable   	qrrun equal 0.0
+set   		atom 1285 charge ${qrrun}
+run		5 
+
+variable   	qrrun equal 1.0
+set   		atom 1285 charge ${qrrun}
+run		5 
+
+write_data	Ion2.data
+write_restart	Ion2.restart
+
+
+

@@ -1,0 +1,193 @@
+LAMMPS (26 Jan20 2014)
+# fix all positions and run simulation
+
+units		real
+dimension	3
+boundary	p p p
+
+atom_style	full
+read_restart	Ion1.restart
+  orthogonal box = (0 0 -150) to (31.974 34.08 273.2)
+  1 by 1 by 1 MPI processor grid
+  3822 atoms
+  642 bonds
+  321 angles
+  2 = max # of 1-2 neighbors
+  1 = max # of 1-3 neighbors
+  1 = max # of 1-4 neighbors
+  2 = max # of special neighbors
+
+#set		atom   1290   type   7
+
+neighbor	2.0 bin
+neigh_modify	delay 0 every 1 check yes
+
+pair_style	lj/cut/coul/cut 16.0 16.0
+
+bond_style	harmonic
+bond_coeff	1 2500.0 2.71
+bond_coeff	2 2500.0 3.82
+
+angle_style	harmonic
+angle_coeff	1 2500.0 116.0
+
+mass		1 	67.07   # C1
+mass		2 	15.04	# C2
+mass	        3       57.12	# C3
+mass		4      144.96   # A
+mass		5	12.01	# left pore carbon
+mass		6	12.01	# right pore carbon
+mass		7	 1.00   # test atom
+
+# LJ potentials
+# LJ w/ epsilon, sigma
+# Imidazolium Ionic Liquid Interfaces with Vapor and Graphite:
+# Interfacial Tension and Capacitance from Coarse-Grained
+# Molecular Simulations J. Phys. Chem. C 2011, 115, 16613-16618
+# Charge should be 0.4374/0.1578/0.1848/-0.7800
+
+# An Improved Four-Site Ionic Liquid Model
+# J. Phys. Chem. B 2010, 114, 12629-12631
+
+# Water conduction through the hydrophobic channel of a
+# carbon nanotube
+# G. Hummer, J. C. Rasaiah & J. P. Noworyta
+# Nature 414, 188-190 (8 November 2001) | doi:10.1038/35102535
+
+pair_coeff      1  1        0.61185000        4.38000000
+pair_coeff      1  2        0.22944454        3.89500000
+pair_coeff      2  2        0.08604200        3.41000000
+pair_coeff      1  3        0.51731127        4.71000000
+pair_coeff      2  3        0.19399240        4.22500000
+pair_coeff      3  3        0.43738000        5.04000000
+pair_coeff      1  4        0.82991538        4.72000000
+pair_coeff      2  4        0.31121934        4.23500000
+pair_coeff      3  4        0.70168274        5.05000000
+pair_coeff      4  4        1.12570000        5.06000000
+pair_coeff      1  5        0.22938854        3.89000000
+pair_coeff      2  5        0.08602100        3.40500000
+pair_coeff      3  5        0.19394504        4.22000000
+pair_coeff      4  5        0.31114338        4.23000000
+pair_coeff      5  5        0.08600000        3.40000000
+pair_coeff      1  6        0.22938854        3.89000000
+pair_coeff      2  6        0.08602100        3.40500000
+pair_coeff      3  6        0.19394504        4.22000000
+pair_coeff      4  6        0.31114338        4.23000000
+pair_coeff      5  6        0.08600000        3.40000000
+pair_coeff      6  6        0.08600000        3.40000000
+pair_coeff	1  7	0	0
+pair_coeff	2  7	0	0
+pair_coeff	3  7	0	0
+pair_coeff	4  7	0	0
+pair_coeff	5  7	0	0
+pair_coeff	6  7	0	0
+pair_coeff	7  7	0	0
+
+# define groups
+group		Ion type 1 2 3 4
+1284 atoms in group Ion
+group		pos type 1 2 3
+963 atoms in group pos
+group		neg type 4
+321 atoms in group neg
+group		cat type 5
+1269 atoms in group cat
+group		ani type 6
+1269 atoms in group ani
+group           fix type 5 6
+2538 atoms in group fix
+group		rerun type 7
+0 atoms in group rerun
+
+compute		tempIon Ion temp
+
+thermo		1
+thermo_modify	temp tempIon
+WARNING: Temperature for thermo pressure is not for group all (../thermo.cpp:439)
+thermo_style    custom step ecoul elong
+WARNING: New thermo_style command, previous thermo_modify settings will be lost (../output.cpp:665)
+
+dump		1  all custom 1 charge.dump  id type x y z q
+
+reset_timestep	0
+
+# change the charge to 0.0 for later comparison
+variable   	qrrun equal 0.0
+set   		atom 3425 charge ${qrrun}
+set   		atom 3425 charge 0
+  1 settings made for charge
+run		5
+WARNING: No fixes defined, atoms won't move (../verlet.cpp:54)
+WARNING: Inconsistent image flags (../domain.cpp:618)
+Memory usage per processor = 17.7135 Mbytes
+Step E_coul E_long 
+       0   -12496.902            0 
+       1   -12496.902            0 
+       2   -12496.902            0 
+       3   -12496.902            0 
+       4   -12496.902            0 
+       5   -12496.902            0 
+Loop time of 0.47344 on 1 procs for 5 steps with 3822 atoms
+
+Pair  time (%) = 0.412502 (87.1287)
+Bond  time (%) = 0.000436068 (0.0921062)
+Neigh time (%) = 0 (0)
+Comm  time (%) = 0.000674963 (0.142566)
+Outpt time (%) = 0.0595272 (12.5733)
+Other time (%) = 0.000299454 (0.0632506)
+
+Nlocal:    3822 ave 3822 max 3822 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Nghost:    12821 ave 12821 max 12821 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Neighs:    1.79167e+06 ave 1.79167e+06 max 1.79167e+06 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 1791669
+Ave neighs/atom = 468.778
+Ave special neighs/atom = 0.503925
+Neighbor list builds = 0
+Dangerous builds = 0
+
+variable   	qrrun equal 1.0
+set   		atom 3425 charge ${qrrun}
+set   		atom 3425 charge 1
+  1 settings made for charge
+run		5
+WARNING: No fixes defined, atoms won't move (../verlet.cpp:54)
+WARNING: Inconsistent image flags (../domain.cpp:618)
+Memory usage per processor = 17.7135 Mbytes
+Step E_coul E_long 
+       5   -12848.446            0 
+       6   -12848.446            0 
+       7   -12848.446            0 
+       8   -12848.446            0 
+       9   -12848.446            0 
+      10   -12848.446            0 
+Loop time of 0.476876 on 1 procs for 5 steps with 3822 atoms
+
+Pair  time (%) = 0.415797 (87.1919)
+Bond  time (%) = 0.000444174 (0.0931424)
+Neigh time (%) = 0 (0)
+Comm  time (%) = 0.000624895 (0.131039)
+Outpt time (%) = 0.0597317 (12.5256)
+Other time (%) = 0.000277996 (0.0582952)
+
+Nlocal:    3822 ave 3822 max 3822 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Nghost:    12821 ave 12821 max 12821 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Neighs:    1.79167e+06 ave 1.79167e+06 max 1.79167e+06 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 1791669
+Ave neighs/atom = 468.778
+Ave special neighs/atom = 0.503925
+Neighbor list builds = 0
+Dangerous builds = 0
+
+write_data	Ion2.data
+write_restart	Ion2.restart
+
+
+

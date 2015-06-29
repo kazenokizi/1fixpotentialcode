@@ -1,0 +1,40 @@
+# LAMMPS input file
+
+units		real
+dimension	3
+boundary	p p p
+
+atom_style	full
+read_data	Ion1.data
+
+neighbor	2.0 bin
+neigh_modify	delay 0 every 1 check yes
+
+pair_style	lj/cut/coul/cut  12.0 12.0
+
+mass		1    67.07
+mass		2    67.07
+mass		3    67.07
+mass		4    67.07
+mass		5    67.07
+mass		6    67.07
+
+pair_coeff	*    *   1.338   4.70001759  # eps sig
+
+group		Ion type 1 2 3 4
+group		fix type 5 6 
+
+fix		1 all setforce 0.0 0.0 0.0
+
+thermo		1
+thermo_style	custom ecoul elong
+
+#fix		3  Ion nvt temp 400.0 400.0 100.0 drag 0.1
+fix		2  all potential 1 0 2.0 1e-6 lj/cut/coul/long
+dump		4  all custom 1 charge.dump  id type x y z q
+
+timestep	1
+
+run		1
+
+write_restart	Ion1.restart

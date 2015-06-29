@@ -1,0 +1,409 @@
+ iswap = 	0	nswap =	6	me = 	11	sdproc=	11	sdnum=	0	rvproc = 	11	rvnum=	0
+ iswap = 	0	nswap =	6	me = 	0	sdproc=	0	sdnum=	0	rvproc = 	0	rvnum=	0
+ iswap = 	0	nswap =	6	me = 	2	sdproc=	2	sdnum=	0	rvproc = 	2	rvnum=	0
+ iswap = 	0	nswap =	6	me = 	12	sdproc=	12	sdnum=	0	rvproc = 	12	rvnum=	0
+ iswap = 	0	nswap =	6	me = 	14	sdproc=	14	sdnum=	0	rvproc = 	14	rvnum=	0
+ iswap = 	0	nswap =	6	me = 	4	sdproc=	4	sdnum=	0	rvproc = 	4	rvnum=	0
+ iswap = 	1	nswap =	6	me = 	11	sdproc=	11	sdnum=	0	rvproc = 	11	rvnum=	0
+ iswap = 	1	nswap =	6	me = 	2	sdproc=	2	sdnum=	0	rvproc = 	2	rvnum=	0
+ iswap = 	0	nswap =	6	me = 	1	sdproc=	1	sdnum=	0	rvproc = 	1	rvnum=	0
+ iswap = 	0	nswap =	6	me = 	15	sdproc=	15	sdnum=	0	rvproc = 	15	rvnum=	0
+ iswap = 	0	nswap =	6	me = 	13	sdproc=	13	sdnum=	0	rvproc = 	13	rvnum=	0
+ iswap = 	1	nswap =	6	me = 	12	sdproc=	12	sdnum=	0	rvproc = 	12	rvnum=	0
+ iswap = 	0	nswap =	6	me = 	3	sdproc=	3	sdnum=	0	rvproc = 	3	rvnum=	0
+ iswap = 	0	nswap =	6	me = 	8	sdproc=	8	sdnum=	181	rvproc = 	8	rvnum=	181
+ iswap = 	0	nswap =	6	me = 	6	sdproc=	6	sdnum=	180	rvproc = 	6	rvnum=	180
+ iswap = 	1	nswap =	6	me = 	14	sdproc=	14	sdnum=	0	rvproc = 	14	rvnum=	0
+ iswap = 	0	nswap =	6	me = 	7	sdproc=	7	sdnum=	172	rvproc = 	7	rvnum=	172
+ iswap = 	1	nswap =	6	me = 	4	sdproc=	4	sdnum=	0	rvproc = 	4	rvnum=	0
+ iswap = 	0	nswap =	6	me = 	10	sdproc=	10	sdnum=	705	rvproc = 	10	rvnum=	705
+ iswap = 	1	nswap =	6	me = 	0	sdproc=	0	sdnum=	0	rvproc = 	0	rvnum=	0
+ iswap = 	2	nswap =	6	me = 	2	sdproc=	2	sdnum=	0	rvproc = 	2	rvnum=	0
+ iswap = 	1	nswap =	6	me = 	1	sdproc=	1	sdnum=	0	rvproc = 	1	rvnum=	0
+ iswap = 	2	nswap =	6	me = 	11	sdproc=	11	sdnum=	0	rvproc = 	11	rvnum=	0
+ iswap = 	1	nswap =	6	me = 	13	sdproc=	13	sdnum=	0	rvproc = 	13	rvnum=	0
+ iswap = 	1	nswap =	6	me = 	15	sdproc=	15	sdnum=	0	rvproc = 	15	rvnum=	0
+ iswap = 	2	nswap =	6	me = 	12	sdproc=	12	sdnum=	0	rvproc = 	12	rvnum=	0
+ iswap = 	1	nswap =	6	me = 	3	sdproc=	3	sdnum=	0	rvproc = 	3	rvnum=	0
+ iswap = 	1	nswap =	6	me = 	8	sdproc=	8	sdnum=	181	rvproc = 	8	rvnum=	181
+ iswap = 	1	nswap =	6	me = 	6	sdproc=	6	sdnum=	176	rvproc = 	6	rvnum=	176
+ iswap = 	2	nswap =	6	me = 	14	sdproc=	14	sdnum=	0	rvproc = 	14	rvnum=	0
+ iswap = 	2	nswap =	6	me = 	1	sdproc=	1	sdnum=	0	rvproc = 	1	rvnum=	0
+ iswap = 	1	nswap =	6	me = 	7	sdproc=	7	sdnum=	180	rvproc = 	7	rvnum=	180
+ iswap = 	2	nswap =	6	me = 	4	sdproc=	4	sdnum=	0	rvproc = 	4	rvnum=	0
+ iswap = 	2	nswap =	6	me = 	0	sdproc=	0	sdnum=	0	rvproc = 	0	rvnum=	0
+ iswap = 	0	nswap =	6	me = 	9	sdproc=	9	sdnum=	186	rvproc = 	9	rvnum=	186
+ iswap = 	3	nswap =	6	me = 	2	sdproc=	2	sdnum=	0	rvproc = 	2	rvnum=	0
+ iswap = 	0	nswap =	6	me = 	5	sdproc=	5	sdnum=	705	rvproc = 	5	rvnum=	705
+ iswap = 	3	nswap =	6	me = 	11	sdproc=	11	sdnum=	0	rvproc = 	11	rvnum=	0
+ iswap = 	2	nswap =	6	me = 	13	sdproc=	13	sdnum=	0	rvproc = 	13	rvnum=	0
+ iswap = 	2	nswap =	6	me = 	6	sdproc=	6	sdnum=	366	rvproc = 	6	rvnum=	366
+ iswap = 	2	nswap =	6	me = 	15	sdproc=	15	sdnum=	0	rvproc = 	15	rvnum=	0
+ iswap = 	3	nswap =	6	me = 	12	sdproc=	12	sdnum=	0	rvproc = 	12	rvnum=	0
+ iswap = 	2	nswap =	6	me = 	3	sdproc=	3	sdnum=	0	rvproc = 	3	rvnum=	0
+ iswap = 	3	nswap =	6	me = 	14	sdproc=	14	sdnum=	0	rvproc = 	14	rvnum=	0
+ iswap = 	3	nswap =	6	me = 	1	sdproc=	1	sdnum=	0	rvproc = 	1	rvnum=	0
+ iswap = 	2	nswap =	6	me = 	8	sdproc=	8	sdnum=	356	rvproc = 	8	rvnum=	356
+ iswap = 	3	nswap =	6	me = 	0	sdproc=	0	sdnum=	0	rvproc = 	0	rvnum=	0
+ iswap = 	2	nswap =	6	me = 	7	sdproc=	7	sdnum=	325	rvproc = 	7	rvnum=	325
+ iswap = 	3	nswap =	6	me = 	4	sdproc=	4	sdnum=	0	rvproc = 	4	rvnum=	0
+ iswap = 	4	nswap =	6	me = 	2	sdproc=	1	sdnum=	0	rvproc = 	3	rvnum=	0
+ iswap = 	4	nswap =	6	me = 	11	sdproc=	10	sdnum=	0	rvproc = 	12	rvnum=	0
+ iswap = 	1	nswap =	6	me = 	9	sdproc=	9	sdnum=	182	rvproc = 	9	rvnum=	182
+ iswap = 	3	nswap =	6	me = 	13	sdproc=	13	sdnum=	0	rvproc = 	13	rvnum=	0
+ iswap = 	1	nswap =	6	me = 	5	sdproc=	5	sdnum=	705	rvproc = 	5	rvnum=	705
+ iswap = 	3	nswap =	6	me = 	15	sdproc=	15	sdnum=	0	rvproc = 	15	rvnum=	0
+ iswap = 	4	nswap =	6	me = 	12	sdproc=	11	sdnum=	0	rvproc = 	13	rvnum=	0
+ iswap = 	3	nswap =	6	me = 	6	sdproc=	6	sdnum=	350	rvproc = 	6	rvnum=	350
+ iswap = 	3	nswap =	6	me = 	3	sdproc=	3	sdnum=	0	rvproc = 	3	rvnum=	0
+ iswap = 	4	nswap =	6	me = 	14	sdproc=	13	sdnum=	0	rvproc = 	15	rvnum=	0
+ iswap = 	4	nswap =	6	me = 	1	sdproc=	0	sdnum=	0	rvproc = 	2	rvnum=	0
+ iswap = 	4	nswap =	6	me = 	0	sdproc=	15	sdnum=	0	rvproc = 	1	rvnum=	0
+ iswap = 	3	nswap =	6	me = 	8	sdproc=	8	sdnum=	373	rvproc = 	8	rvnum=	373
+ iswap = 	4	nswap =	6	me = 	4	sdproc=	3	sdnum=	0	rvproc = 	5	rvnum=	1881
+ iswap = 	3	nswap =	6	me = 	7	sdproc=	7	sdnum=	367	rvproc = 	7	rvnum=	367
+ iswap = 	5	nswap =	6	me = 	2	sdproc=	3	sdnum=	0	rvproc = 	1	rvnum=	0
+ iswap = 	5	nswap =	6	me = 	11	sdproc=	12	sdnum=	0	rvproc = 	10	rvnum=	1881
+ iswap = 	4	nswap =	6	me = 	13	sdproc=	12	sdnum=	0	rvproc = 	14	rvnum=	0
+ iswap = 	2	nswap =	6	me = 	9	sdproc=	9	sdnum=	355	rvproc = 	9	rvnum=	355
+ iswap = 	1	nswap =	6	me = 	10	sdproc=	10	sdnum=	705	rvproc = 	10	rvnum=	705
+ iswap = 	4	nswap =	6	me = 	15	sdproc=	14	sdnum=	0	rvproc = 	0	rvnum=	0
+ iswap = 	5	nswap =	6	me = 	12	sdproc=	13	sdnum=	0	rvproc = 	11	rvnum=	0
+ iswap = 	4	nswap =	6	me = 	3	sdproc=	2	sdnum=	0	rvproc = 	4	rvnum=	0
+ iswap = 	5	nswap =	6	me = 	13	sdproc=	14	sdnum=	0	rvproc = 	12	rvnum=	0
+ iswap = 	5	nswap =	6	me = 	14	sdproc=	15	sdnum=	0	rvproc = 	13	rvnum=	0
+ iswap = 	3	nswap =	6	me = 	9	sdproc=	9	sdnum=	377	rvproc = 	9	rvnum=	377
+ iswap = 	5	nswap =	6	me = 	1	sdproc=	2	sdnum=	0	rvproc = 	0	rvnum=	0
+ iswap = 	5	nswap =	6	me = 	0	sdproc=	1	sdnum=	0	rvproc = 	15	rvnum=	0
+ iswap = 	0	nswap =	6	me = 	2	sdproc=	2	sdnum=	0	rvproc = 	2	rvnum=	0
+ iswap = 	5	nswap =	6	me = 	3	sdproc=	4	sdnum=	0	rvproc = 	2	rvnum=	0
+ iswap = 	5	nswap =	6	me = 	15	sdproc=	0	sdnum=	0	rvproc = 	14	rvnum=	0
+ iswap = 	0	nswap =	6	me = 	15	sdproc=	15	sdnum=	0	rvproc = 	15	rvnum=	0
+ iswap = 	4	nswap =	6	me = 	6	sdproc=	5	sdnum=	933	rvproc = 	7	rvnum=	960
+ iswap = 	0	nswap =	6	me = 	12	sdproc=	12	sdnum=	0	rvproc = 	12	rvnum=	0
+ iswap = 	4	nswap =	6	me = 	8	sdproc=	7	sdnum=	1016	rvproc = 	9	rvnum=	984
+ iswap = 	0	nswap =	6	me = 	13	sdproc=	13	sdnum=	0	rvproc = 	13	rvnum=	0
+ iswap = 	0	nswap =	6	me = 	14	sdproc=	14	sdnum=	0	rvproc = 	14	rvnum=	0
+ iswap = 	1	nswap =	6	me = 	2	sdproc=	2	sdnum=	0	rvproc = 	2	rvnum=	0
+ iswap = 	0	nswap =	6	me = 	1	sdproc=	1	sdnum=	0	rvproc = 	1	rvnum=	0
+ iswap = 	0	nswap =	6	me = 	0	sdproc=	0	sdnum=	0	rvproc = 	0	rvnum=	0
+ iswap = 	0	nswap =	6	me = 	3	sdproc=	3	sdnum=	0	rvproc = 	3	rvnum=	0
+ iswap = 	4	nswap =	6	me = 	9	sdproc=	8	sdnum=	984	rvproc = 	10	rvnum=	5526
+ iswap = 	1	nswap =	6	me = 	15	sdproc=	15	sdnum=	0	rvproc = 	15	rvnum=	0
+ iswap = 	2	nswap =	6	me = 	5	sdproc=	5	sdnum=	1509	rvproc = 	5	rvnum=	1509
+ iswap = 	1	nswap =	6	me = 	12	sdproc=	12	sdnum=	0	rvproc = 	12	rvnum=	0
+ iswap = 	1	nswap =	6	me = 	13	sdproc=	13	sdnum=	0	rvproc = 	13	rvnum=	0
+ iswap = 	2	nswap =	6	me = 	10	sdproc=	10	sdnum=	1509	rvproc = 	10	rvnum=	1509
+ iswap = 	1	nswap =	6	me = 	14	sdproc=	14	sdnum=	0	rvproc = 	14	rvnum=	0
+ iswap = 	2	nswap =	6	me = 	2	sdproc=	2	sdnum=	0	rvproc = 	2	rvnum=	0
+ iswap = 	1	nswap =	6	me = 	1	sdproc=	1	sdnum=	0	rvproc = 	1	rvnum=	0
+ iswap = 	1	nswap =	6	me = 	0	sdproc=	0	sdnum=	0	rvproc = 	0	rvnum=	0
+ iswap = 	1	nswap =	6	me = 	3	sdproc=	3	sdnum=	0	rvproc = 	3	rvnum=	0
+ iswap = 	2	nswap =	6	me = 	15	sdproc=	15	sdnum=	0	rvproc = 	15	rvnum=	0
+ iswap = 	4	nswap =	6	me = 	7	sdproc=	6	sdnum=	960	rvproc = 	8	rvnum=	1016
+ iswap = 	2	nswap =	6	me = 	12	sdproc=	12	sdnum=	0	rvproc = 	12	rvnum=	0
+ iswap = 	2	nswap =	6	me = 	13	sdproc=	13	sdnum=	0	rvproc = 	13	rvnum=	0
+receive 
+send 
+0
+receive 
+send 
+0
+ iswap = 	2	nswap =	6	me = 	14	sdproc=	14	sdnum=	0	rvproc = 	14	rvnum=	0
+ iswap = 	3	nswap =	6	me = 	2	sdproc=	2	sdnum=	0	rvproc = 	2	rvnum=	0
+ iswap = 	2	nswap =	6	me = 	1	sdproc=	1	sdnum=	0	rvproc = 	1	rvnum=	0
+ iswap = 	3	nswap =	6	me = 	5	sdproc=	5	sdnum=	1338	rvproc = 	5	rvnum=	1338
+ iswap = 	2	nswap =	6	me = 	0	sdproc=	0	sdnum=	0	rvproc = 	0	rvnum=	0
+ iswap = 	2	nswap =	6	me = 	3	sdproc=	3	sdnum=	0	rvproc = 	3	rvnum=	0
+ iswap = 	3	nswap =	6	me = 	15	sdproc=	15	sdnum=	0	rvproc = 	15	rvnum=	0
+ iswap = 	3	nswap =	6	me = 	12	sdproc=	12	sdnum=	0	rvproc = 	12	rvnum=	0
+ iswap = 	3	nswap =	6	me = 	13	sdproc=	13	sdnum=	0	rvproc = 	13	rvnum=	0
+request 
+
+ iswap = 	5	nswap =	6	me = 	8	sdproc=	9	sdnum=	923	rvproc = 	7	rvnum=	881
+ iswap = 	3	nswap =	6	me = 	14	sdproc=	14	sdnum=	0	rvproc = 	14	rvnum=	0
+ iswap = 	4	nswap =	6	me = 	2	sdproc=	1	sdnum=	0	rvproc = 	3	rvnum=	0
+ iswap = 	3	nswap =	6	me = 	1	sdproc=	1	sdnum=	0	rvproc = 	1	rvnum=	0
+ iswap = 	3	nswap =	6	me = 	0	sdproc=	0	sdnum=	0	rvproc = 	0	rvnum=	0
+ iswap = 	3	nswap =	6	me = 	3	sdproc=	3	sdnum=	0	rvproc = 	3	rvnum=	0
+request 
+
+ iswap = 	5	nswap =	6	me = 	7	sdproc=	8	sdnum=	881	rvproc = 	6	rvnum=	952
+ iswap = 	3	nswap =	6	me = 	10	sdproc=	10	sdnum=	1338	rvproc = 	10	rvnum=	1338
+ iswap = 	4	nswap =	6	me = 	15	sdproc=	14	sdnum=	0	rvproc = 	0	rvnum=	0
+ iswap = 	4	nswap =	6	me = 	13	sdproc=	12	sdnum=	0	rvproc = 	14	rvnum=	0
+ iswap = 	0	nswap =	6	me = 	15	sdproc=	15	sdnum=	0	rvproc = 	15	rvnum=	0
+ iswap = 	0	nswap =	6	me = 	2	sdproc=	2	sdnum=	0	rvproc = 	2	rvnum=	0
+ iswap = 	0	nswap =	6	me = 	0	sdproc=	0	sdnum=	0	rvproc = 	0	rvnum=	0
+ iswap = 	0	nswap =	6	me = 	12	sdproc=	12	sdnum=	0	rvproc = 	12	rvnum=	0
+ iswap = 	0	nswap =	6	me = 	3	sdproc=	3	sdnum=	0	rvproc = 	3	rvnum=	0
+ iswap = 	0	nswap =	6	me = 	4	sdproc=	4	sdnum=	0	rvproc = 	4	rvnum=	0
+ iswap = 	0	nswap =	6	me = 	1	sdproc=	1	sdnum=	0	rvproc = 	1	rvnum=	0
+ iswap = 	0	nswap =	6	me = 	13	sdproc=	13	sdnum=	0	rvproc = 	13	rvnum=	0
+ iswap = 	0	nswap =	6	me = 	14	sdproc=	14	sdnum=	0	rvproc = 	14	rvnum=	0
+ iswap = 	0	nswap =	6	me = 	11	sdproc=	11	sdnum=	0	rvproc = 	11	rvnum=	0
+ iswap = 	0	nswap =	6	me = 	6	sdproc=	6	sdnum=	180	rvproc = 	6	rvnum=	180
+ iswap = 	0	nswap =	6	me = 	9	sdproc=	9	sdnum=	186	rvproc = 	9	rvnum=	186
+ iswap = 	0	nswap =	6	me = 	7	sdproc=	7	sdnum=	172	rvproc = 	7	rvnum=	172
+ iswap = 	1	nswap =	6	me = 	2	sdproc=	2	sdnum=	0	rvproc = 	2	rvnum=	0
+ iswap = 	1	nswap =	6	me = 	15	sdproc=	15	sdnum=	0	rvproc = 	15	rvnum=	0
+ iswap = 	1	nswap =	6	me = 	0	sdproc=	0	sdnum=	0	rvproc = 	0	rvnum=	0
+ iswap = 	0	nswap =	6	me = 	8	sdproc=	8	sdnum=	181	rvproc = 	8	rvnum=	181
+ iswap = 	1	nswap =	6	me = 	4	sdproc=	4	sdnum=	0	rvproc = 	4	rvnum=	0
+ iswap = 	1	nswap =	6	me = 	14	sdproc=	14	sdnum=	0	rvproc = 	14	rvnum=	0
+ iswap = 	1	nswap =	6	me = 	12	sdproc=	12	sdnum=	0	rvproc = 	12	rvnum=	0
+ iswap = 	1	nswap =	6	me = 	3	sdproc=	3	sdnum=	0	rvproc = 	3	rvnum=	0
+ iswap = 	1	nswap =	6	me = 	13	sdproc=	13	sdnum=	0	rvproc = 	13	rvnum=	0
+ iswap = 	1	nswap =	6	me = 	1	sdproc=	1	sdnum=	0	rvproc = 	1	rvnum=	0
+ iswap = 	1	nswap =	6	me = 	11	sdproc=	11	sdnum=	0	rvproc = 	11	rvnum=	0
+ iswap = 	0	nswap =	6	me = 	5	sdproc=	5	sdnum=	705	rvproc = 	5	rvnum=	705
+ iswap = 	1	nswap =	6	me = 	6	sdproc=	6	sdnum=	176	rvproc = 	6	rvnum=	176
+ iswap = 	0	nswap =	6	me = 	10	sdproc=	10	sdnum=	705	rvproc = 	10	rvnum=	705
+ iswap = 	1	nswap =	6	me = 	7	sdproc=	7	sdnum=	180	rvproc = 	7	rvnum=	180
+ iswap = 	2	nswap =	6	me = 	2	sdproc=	2	sdnum=	0	rvproc = 	2	rvnum=	0
+ iswap = 	2	nswap =	6	me = 	15	sdproc=	15	sdnum=	0	rvproc = 	15	rvnum=	0
+ iswap = 	2	nswap =	6	me = 	4	sdproc=	4	sdnum=	0	rvproc = 	4	rvnum=	0
+ iswap = 	2	nswap =	6	me = 	14	sdproc=	14	sdnum=	0	rvproc = 	14	rvnum=	0
+ iswap = 	2	nswap =	6	me = 	0	sdproc=	0	sdnum=	0	rvproc = 	0	rvnum=	0
+ iswap = 	2	nswap =	6	me = 	13	sdproc=	13	sdnum=	0	rvproc = 	13	rvnum=	0
+ iswap = 	2	nswap =	6	me = 	12	sdproc=	12	sdnum=	0	rvproc = 	12	rvnum=	0
+ iswap = 	1	nswap =	6	me = 	8	sdproc=	8	sdnum=	181	rvproc = 	8	rvnum=	181
+ iswap = 	2	nswap =	6	me = 	3	sdproc=	3	sdnum=	0	rvproc = 	3	rvnum=	0
+ iswap = 	2	nswap =	6	me = 	11	sdproc=	11	sdnum=	0	rvproc = 	11	rvnum=	0
+ iswap = 	2	nswap =	6	me = 	1	sdproc=	1	sdnum=	0	rvproc = 	1	rvnum=	0
+ iswap = 	2	nswap =	6	me = 	6	sdproc=	6	sdnum=	366	rvproc = 	6	rvnum=	366
+ iswap = 	3	nswap =	6	me = 	2	sdproc=	2	sdnum=	0	rvproc = 	2	rvnum=	0
+ iswap = 	1	nswap =	6	me = 	5	sdproc=	5	sdnum=	705	rvproc = 	5	rvnum=	705
+ iswap = 	1	nswap =	6	me = 	10	sdproc=	10	sdnum=	705	rvproc = 	10	rvnum=	705
+ iswap = 	3	nswap =	6	me = 	15	sdproc=	15	sdnum=	0	rvproc = 	15	rvnum=	0
+ iswap = 	3	nswap =	6	me = 	4	sdproc=	4	sdnum=	0	rvproc = 	4	rvnum=	0
+ iswap = 	3	nswap =	6	me = 	13	sdproc=	13	sdnum=	0	rvproc = 	13	rvnum=	0
+ iswap = 	3	nswap =	6	me = 	14	sdproc=	14	sdnum=	0	rvproc = 	14	rvnum=	0
+ iswap = 	3	nswap =	6	me = 	0	sdproc=	0	sdnum=	0	rvproc = 	0	rvnum=	0
+ iswap = 	3	nswap =	6	me = 	12	sdproc=	12	sdnum=	0	rvproc = 	12	rvnum=	0
+ iswap = 	3	nswap =	6	me = 	3	sdproc=	3	sdnum=	0	rvproc = 	3	rvnum=	0
+ iswap = 	3	nswap =	6	me = 	11	sdproc=	11	sdnum=	0	rvproc = 	11	rvnum=	0
+ iswap = 	1	nswap =	6	me = 	9	sdproc=	9	sdnum=	182	rvproc = 	9	rvnum=	182
+ iswap = 	3	nswap =	6	me = 	1	sdproc=	1	sdnum=	0	rvproc = 	1	rvnum=	0
+ iswap = 	2	nswap =	6	me = 	7	sdproc=	7	sdnum=	325	rvproc = 	7	rvnum=	325
+ iswap = 	4	nswap =	6	me = 	2	sdproc=	1	sdnum=	0	rvproc = 	3	rvnum=	0
+ iswap = 	4	nswap =	6	me = 	13	sdproc=	12	sdnum=	0	rvproc = 	14	rvnum=	0
+ iswap = 	4	nswap =	6	me = 	15	sdproc=	14	sdnum=	0	rvproc = 	0	rvnum=	0
+ iswap = 	2	nswap =	6	me = 	8	sdproc=	8	sdnum=	356	rvproc = 	8	rvnum=	356
+ iswap = 	4	nswap =	6	me = 	4	sdproc=	3	sdnum=	0	rvproc = 	5	rvnum=	1881
+ iswap = 	3	nswap =	6	me = 	6	sdproc=	6	sdnum=	350	rvproc = 	6	rvnum=	350
+ iswap = 	4	nswap =	6	me = 	14	sdproc=	13	sdnum=	0	rvproc = 	15	rvnum=	0
+ iswap = 	4	nswap =	6	me = 	0	sdproc=	15	sdnum=	0	rvproc = 	1	rvnum=	0
+ iswap = 	4	nswap =	6	me = 	12	sdproc=	11	sdnum=	0	rvproc = 	13	rvnum=	0
+ iswap = 	4	nswap =	6	me = 	3	sdproc=	2	sdnum=	0	rvproc = 	4	rvnum=	0
+ iswap = 	4	nswap =	6	me = 	11	sdproc=	10	sdnum=	0	rvproc = 	12	rvnum=	0
+ iswap = 	4	nswap =	6	me = 	1	sdproc=	0	sdnum=	0	rvproc = 	2	rvnum=	0
+ iswap = 	2	nswap =	6	me = 	9	sdproc=	9	sdnum=	355	rvproc = 	9	rvnum=	355
+ iswap = 	5	nswap =	6	me = 	13	sdproc=	14	sdnum=	0	rvproc = 	12	rvnum=	0
+ iswap = 	5	nswap =	6	me = 	2	sdproc=	3	sdnum=	0	rvproc = 	1	rvnum=	0
+ iswap = 	5	nswap =	6	me = 	15	sdproc=	0	sdnum=	0	rvproc = 	14	rvnum=	0
+ iswap = 	5	nswap =	6	me = 	14	sdproc=	15	sdnum=	0	rvproc = 	13	rvnum=	0
+ iswap = 	2	nswap =	6	me = 	5	sdproc=	5	sdnum=	1509	rvproc = 	5	rvnum=	1509
+ iswap = 	5	nswap =	6	me = 	12	sdproc=	13	sdnum=	0	rvproc = 	11	rvnum=	0
+ iswap = 	5	nswap =	6	me = 	0	sdproc=	1	sdnum=	0	rvproc = 	15	rvnum=	0
+ iswap = 	5	nswap =	6	me = 	11	sdproc=	12	sdnum=	0	rvproc = 	10	rvnum=	1881
+ iswap = 	5	nswap =	6	me = 	1	sdproc=	2	sdnum=	0	rvproc = 	0	rvnum=	0
+ iswap = 	5	nswap =	6	me = 	3	sdproc=	4	sdnum=	0	rvproc = 	2	rvnum=	0
+ iswap = 	0	nswap =	6	me = 	13	sdproc=	13	sdnum=	0	rvproc = 	13	rvnum=	0
+ iswap = 	0	nswap =	6	me = 	2	sdproc=	2	sdnum=	0	rvproc = 	2	rvnum=	0
+ iswap = 	0	nswap =	6	me = 	15	sdproc=	15	sdnum=	0	rvproc = 	15	rvnum=	0
+ iswap = 	3	nswap =	6	me = 	7	sdproc=	7	sdnum=	367	rvproc = 	7	rvnum=	367
+ iswap = 	0	nswap =	6	me = 	14	sdproc=	14	sdnum=	0	rvproc = 	14	rvnum=	0
+ iswap = 	4	nswap =	6	me = 	6	sdproc=	5	sdnum=	933	rvproc = 	7	rvnum=	960
+ iswap = 	0	nswap =	6	me = 	12	sdproc=	12	sdnum=	0	rvproc = 	12	rvnum=	0
+ iswap = 	3	nswap =	6	me = 	9	sdproc=	9	sdnum=	377	rvproc = 	9	rvnum=	377
+ iswap = 	0	nswap =	6	me = 	0	sdproc=	0	sdnum=	0	rvproc = 	0	rvnum=	0
+ iswap = 	0	nswap =	6	me = 	3	sdproc=	3	sdnum=	0	rvproc = 	3	rvnum=	0
+ iswap = 	0	nswap =	6	me = 	1	sdproc=	1	sdnum=	0	rvproc = 	1	rvnum=	0
+ iswap = 	2	nswap =	6	me = 	10	sdproc=	10	sdnum=	1509	rvproc = 	10	rvnum=	1509
+ iswap = 	1	nswap =	6	me = 	13	sdproc=	13	sdnum=	0	rvproc = 	13	rvnum=	0
+ iswap = 	1	nswap =	6	me = 	2	sdproc=	2	sdnum=	0	rvproc = 	2	rvnum=	0
+ iswap = 	3	nswap =	6	me = 	5	sdproc=	5	sdnum=	1338	rvproc = 	5	rvnum=	1338
+ iswap = 	1	nswap =	6	me = 	15	sdproc=	15	sdnum=	0	rvproc = 	15	rvnum=	0
+ iswap = 	1	nswap =	6	me = 	14	sdproc=	14	sdnum=	0	rvproc = 	14	rvnum=	0
+ iswap = 	1	nswap =	6	me = 	12	sdproc=	12	sdnum=	0	rvproc = 	12	rvnum=	0
+ iswap = 	3	nswap =	6	me = 	8	sdproc=	8	sdnum=	373	rvproc = 	8	rvnum=	373
+ iswap = 	1	nswap =	6	me = 	0	sdproc=	0	sdnum=	0	rvproc = 	0	rvnum=	0
+ iswap = 	4	nswap =	6	me = 	7	sdproc=	6	sdnum=	960	rvproc = 	8	rvnum=	1016
+ iswap = 	1	nswap =	6	me = 	3	sdproc=	3	sdnum=	0	rvproc = 	3	rvnum=	0
+ iswap = 	1	nswap =	6	me = 	1	sdproc=	1	sdnum=	0	rvproc = 	1	rvnum=	0
+ iswap = 	2	nswap =	6	me = 	2	sdproc=	2	sdnum=	0	rvproc = 	2	rvnum=	0
+ iswap = 	2	nswap =	6	me = 	13	sdproc=	13	sdnum=	0	rvproc = 	13	rvnum=	0
+ iswap = 	2	nswap =	6	me = 	14	sdproc=	14	sdnum=	0	rvproc = 	14	rvnum=	0
+ iswap = 	2	nswap =	6	me = 	15	sdproc=	15	sdnum=	0	rvproc = 	15	rvnum=	0
+ iswap = 	4	nswap =	6	me = 	5	sdproc=	4	sdnum=	1881	rvproc = 	6	rvnum=	933
+ iswap = 	2	nswap =	6	me = 	12	sdproc=	12	sdnum=	0	rvproc = 	12	rvnum=	0
+ iswap = 	2	nswap =	6	me = 	0	sdproc=	0	sdnum=	0	rvproc = 	0	rvnum=	0
+ iswap = 	2	nswap =	6	me = 	1	sdproc=	1	sdnum=	0	rvproc = 	1	rvnum=	0
+receive 
+0
+receive 
+send 
+0
+receive 
+send 
+0
+ iswap = 	2	nswap =	6	me = 	3	sdproc=	3	sdnum=	0	rvproc = 	3	rvnum=	0
+ iswap = 	3	nswap =	6	me = 	13	sdproc=	13	sdnum=	0	rvproc = 	13	rvnum=	0
+ iswap = 	3	nswap =	6	me = 	2	sdproc=	2	sdnum=	0	rvproc = 	2	rvnum=	0
+ iswap = 	4	nswap =	6	me = 	8	sdproc=	7	sdnum=	1016	rvproc = 	9	rvnum=	984
+ iswap = 	3	nswap =	6	me = 	14	sdproc=	14	sdnum=	0	rvproc = 	14	rvnum=	0
+receive 
+send 
+0
+ iswap = 	3	nswap =	6	me = 	15	sdproc=	15	sdnum=	0	rvproc = 	15	rvnum=	0
+ iswap = 	3	nswap =	6	me = 	12	sdproc=	12	sdnum=	0	rvproc = 	12	rvnum=	0
+ iswap = 	3	nswap =	6	me = 	0	sdproc=	0	sdnum=	0	rvproc = 	0	rvnum=	0
+ iswap = 	3	nswap =	6	me = 	1	sdproc=	1	sdnum=	0	rvproc = 	1	rvnum=	0
+ iswap = 	4	nswap =	6	me = 	9	sdproc=	8	sdnum=	984	rvproc = 	10	rvnum=	5526
+ iswap = 	3	nswap =	6	me = 	3	sdproc=	3	sdnum=	0	rvproc = 	3	rvnum=	0
+request 
+
+ iswap = 	5	nswap =	6	me = 	4	sdproc=	5	sdnum=	0	rvproc = 	3	rvnum=	0
+receive 
+send 
+0
+ iswap = 	4	nswap =	6	me = 	13	sdproc=	12	sdnum=	0	rvproc = 	14	rvnum=	0
+ iswap = 	3	nswap =	6	me = 	10	sdproc=	10	sdnum=	1338	rvproc = 	10	rvnum=	1338
+ iswap = 	4	nswap =	6	me = 	2	sdproc=	1	sdnum=	0	rvproc = 	3	rvnum=	0
+ iswap = 	4	nswap =	6	me = 	14	sdproc=	13	sdnum=	0	rvproc = 	15	rvnum=	0
+ iswap = 	4	nswap =	6	me = 	15	sdproc=	14	sdnum=	0	rvproc = 	0	rvnum=	0
+ iswap = 	4	nswap =	6	me = 	0	sdproc=	15	sdnum=	0	rvproc = 	1	rvnum=	0
+request 
+
+ iswap = 	5	nswap =	6	me = 	7	sdproc=	8	sdnum=	881	rvproc = 	6	rvnum=	952
+ iswap = 	4	nswap =	6	me = 	12	sdproc=	11	sdnum=	0	rvproc = 	13	rvnum=	0
+ iswap = 	4	nswap =	6	me = 	1	sdproc=	0	sdnum=	0	rvproc = 	2	rvnum=	0
+ iswap = 	4	nswap =	6	me = 	3	sdproc=	2	sdnum=	0	rvproc = 	4	rvnum=	0
+ iswap = 	5	nswap =	6	me = 	13	sdproc=	14	sdnum=	0	rvproc = 	12	rvnum=	0
+ iswap = 	5	nswap =	6	me = 	2	sdproc=	3	sdnum=	0	rvproc = 	1	rvnum=	0
+ iswap = 	5	nswap =	6	me = 	14	sdproc=	15	sdnum=	0	rvproc = 	13	rvnum=	0
+ iswap = 	5	nswap =	6	me = 	15	sdproc=	0	sdnum=	0	rvproc = 	14	rvnum=	0
+ iswap = 	5	nswap =	6	me = 	0	sdproc=	1	sdnum=	0	rvproc = 	15	rvnum=	0
+request 
+
+ iswap = 	5	nswap =	6	me = 	6	sdproc=	7	sdnum=	952	rvproc = 	5	rvnum=	5526
+ iswap = 	5	nswap =	6	me = 	12	sdproc=	13	sdnum=	0	rvproc = 	11	rvnum=	0
+ iswap = 	5	nswap =	6	me = 	1	sdproc=	2	sdnum=	0	rvproc = 	0	rvnum=	0
+ iswap = 	5	nswap =	6	me = 	3	sdproc=	4	sdnum=	0	rvproc = 	2	rvnum=	0
+request 
+
+ iswap = 	5	nswap =	6	me = 	8	sdproc=	9	sdnum=	923	rvproc = 	7	rvnum=	881
+receive 
+send 
+0
+request 
+
+request 
+
+ iswap = 	5	nswap =	6	me = 	5	sdproc=	6	sdnum=	5526	rvproc = 	4	rvnum=	0
+receive 
+send 
+0
+send 
+ iswap = 	4	nswap =	6	me = 	10	sdproc=	9	sdnum=	5526	rvproc = 	11	rvnum=	0
+receive 
+send 
+0
+send 
+ iswap = 	5	nswap =	6	me = 	10	sdproc=	11	sdnum=	1881	rvproc = 	9	rvnum=	994
+receive 
+0
+request 
+
+request 
+
+request 
+
+ iswap = 	5	nswap =	6	me = 	9	sdproc=	10	sdnum=	994	rvproc = 	8	rvnum=	923
+receive 
+send 
+0
+receive 
+send 
+0
+receive 
+send 
+0
+request 
+
+request 
+
+request 
+
+ iswap = 	0	nswap =	6	me = 	5	sdproc=	5	sdnum=	705	rvproc = 	5	rvnum=	705
+ iswap = 	1	nswap =	6	me = 	5	sdproc=	5	sdnum=	705	rvproc = 	5	rvnum=	705
+ iswap = 	2	nswap =	6	me = 	5	sdproc=	5	sdnum=	1509	rvproc = 	5	rvnum=	1509
+ iswap = 	3	nswap =	6	me = 	5	sdproc=	5	sdnum=	1338	rvproc = 	5	rvnum=	1338
+ iswap = 	4	nswap =	6	me = 	5	sdproc=	4	sdnum=	1881	rvproc = 	6	rvnum=	933
+ iswap = 	0	nswap =	6	me = 	7	sdproc=	7	sdnum=	172	rvproc = 	7	rvnum=	172
+ iswap = 	1	nswap =	6	me = 	7	sdproc=	7	sdnum=	180	rvproc = 	7	rvnum=	180
+ iswap = 	2	nswap =	6	me = 	7	sdproc=	7	sdnum=	325	rvproc = 	7	rvnum=	325
+ iswap = 	3	nswap =	6	me = 	7	sdproc=	7	sdnum=	367	rvproc = 	7	rvnum=	367
+ iswap = 	4	nswap =	6	me = 	7	sdproc=	6	sdnum=	960	rvproc = 	8	rvnum=	1016
+ iswap = 	0	nswap =	6	me = 	8	sdproc=	8	sdnum=	181	rvproc = 	8	rvnum=	181
+ iswap = 	1	nswap =	6	me = 	8	sdproc=	8	sdnum=	181	rvproc = 	8	rvnum=	181
+ iswap = 	2	nswap =	6	me = 	8	sdproc=	8	sdnum=	356	rvproc = 	8	rvnum=	356
+ iswap = 	3	nswap =	6	me = 	8	sdproc=	8	sdnum=	373	rvproc = 	8	rvnum=	373
+ iswap = 	4	nswap =	6	me = 	8	sdproc=	7	sdnum=	1016	rvproc = 	9	rvnum=	984
+ iswap = 	0	nswap =	6	me = 	6	sdproc=	6	sdnum=	180	rvproc = 	6	rvnum=	180
+ iswap = 	1	nswap =	6	me = 	6	sdproc=	6	sdnum=	176	rvproc = 	6	rvnum=	176
+ iswap = 	2	nswap =	6	me = 	6	sdproc=	6	sdnum=	366	rvproc = 	6	rvnum=	366
+ iswap = 	3	nswap =	6	me = 	6	sdproc=	6	sdnum=	350	rvproc = 	6	rvnum=	350
+ iswap = 	4	nswap =	6	me = 	6	sdproc=	5	sdnum=	933	rvproc = 	7	rvnum=	960
+receive 
+send 
+0
+receive 
+send 
+0
+request 
+
+ iswap = 	5	nswap =	6	me = 	6	sdproc=	7	sdnum=	952	rvproc = 	5	rvnum=	5526
+request 
+
+ iswap = 	5	nswap =	6	me = 	7	sdproc=	8	sdnum=	881	rvproc = 	6	rvnum=	952
+ iswap = 	0	nswap =	6	me = 	9	sdproc=	9	sdnum=	186	rvproc = 	9	rvnum=	186
+ iswap = 	1	nswap =	6	me = 	9	sdproc=	9	sdnum=	182	rvproc = 	9	rvnum=	182
+ iswap = 	2	nswap =	6	me = 	9	sdproc=	9	sdnum=	355	rvproc = 	9	rvnum=	355
+ iswap = 	3	nswap =	6	me = 	9	sdproc=	9	sdnum=	377	rvproc = 	9	rvnum=	377
+ iswap = 	4	nswap =	6	me = 	9	sdproc=	8	sdnum=	984	rvproc = 	10	rvnum=	5526
+receive 
+send 
+0
+request 
+
+ iswap = 	5	nswap =	6	me = 	8	sdproc=	9	sdnum=	923	rvproc = 	7	rvnum=	881
+receive 
+send 
+0
+request 
+
+ iswap = 	0	nswap =	6	me = 	10	sdproc=	10	sdnum=	705	rvproc = 	10	rvnum=	705
+ iswap = 	1	nswap =	6	me = 	10	sdproc=	10	sdnum=	705	rvproc = 	10	rvnum=	705
+ iswap = 	2	nswap =	6	me = 	10	sdproc=	10	sdnum=	1509	rvproc = 	10	rvnum=	1509
+ iswap = 	3	nswap =	6	me = 	10	sdproc=	10	sdnum=	1338	rvproc = 	10	rvnum=	1338
+ iswap = 	4	nswap =	6	me = 	10	sdproc=	9	sdnum=	5526	rvproc = 	11	rvnum=	0
+receive 
+send 
+0
+send 
+ iswap = 	5	nswap =	6	me = 	10	sdproc=	11	sdnum=	1881	rvproc = 	9	rvnum=	994
+request 
+
+ iswap = 	5	nswap =	6	me = 	9	sdproc=	10	sdnum=	994	rvproc = 	8	rvnum=	923
+receive 
+send 
+0
+receive 
+send 
+0
+request 
+
+request 
+

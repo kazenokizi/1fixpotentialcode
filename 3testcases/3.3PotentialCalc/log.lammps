@@ -1,0 +1,83 @@
+LAMMPS (26 Jan20 2014)
+# LAMMPS input file
+
+units		real
+dimension	3
+boundary	p p p
+
+atom_style	full
+read_data	Ion1.data
+  orthogonal box = (0 0 0) to (30 30 30)
+  1 by 1 by 1 MPI processor grid
+  reading atoms ...
+  6 atoms
+  0 = max # of 1-2 neighbors
+  0 = max # of 1-3 neighbors
+  0 = max # of 1-4 neighbors
+  1 = max # of special neighbors
+
+neighbor	2.0 bin
+neigh_modify	delay 0 every 1 check yes
+
+pair_style	lj/cut/coul/long  12.0 12.0
+kspace_style	ewald 1e-6
+
+mass		1    67.07
+mass		2    67.07
+mass		3    67.07
+mass		4    67.07
+mass		5    67.07
+mass		6    67.07
+
+pair_coeff	*    *   1.338   4.70001759  # eps sig
+
+fix		1 all setforce 0.0 0.0 0.0
+
+thermo		1
+thermo_style	custom ecoul elong
+
+fix		2  all potential 1 0 2.0 1e-6 lj/cut/coul/long
+dump		4  all custom 1 charge.dump  id type x y z q
+
+timestep	1
+run		1
+Ewald initialization ...
+  G vector (1/distance) = 0.245159
+  estimated absolute RMS force accuracy = 0.000414187
+  estimated relative force accuracy = 1.24731e-06
+  KSpace vectors: actual max1d max3d = 709 7 1687
+                  kxmax kymax kzmax  = 7 7 7
+Memory usage per processor = 14.036 Mbytes
+E_coul E_long 
+ -0.51384738   -1008.4737 
+ -0.51386247    -1008.505 
+Loop time of 0.527575 on 1 procs for 1 steps with 6 atoms
+
+Pair  time (%) = 6.19888e-06 (0.00117498)
+Bond  time (%) = 9.53674e-07 (0.000180766)
+Kspce time (%) = 0.000149012 (0.0282446)
+Neigh time (%) = 0 (0)
+Comm  time (%) = 4.05312e-06 (0.000768254)
+Outpt time (%) = 0.000115871 (0.021963)
+Other time (%) = 0.527299 (99.9477)
+
+Nlocal:    6 ave 6 max 6 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Nghost:    14 ave 14 max 14 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Neighs:    9 ave 9 max 9 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 9
+Ave neighs/atom = 1.5
+Ave special neighs/atom = 0
+Neighbor list builds = 0
+Dangerous builds = 0
+
+write_restart	Ion1.restart
+Ewald initialization ...
+  G vector (1/distance) = 0.279789
+  estimated absolute RMS force accuracy = 0.000453332
+  estimated relative force accuracy = 1.3652e-06
+  KSpace vectors: actual max1d max3d = 1535 9 3429
+                  kxmax kymax kzmax  = 9 9 9

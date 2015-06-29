@@ -1,0 +1,22 @@
+ # Liu Group
+           6  atoms      
+           0  bonds      
+           0  angles      
+           0  dihedrals      
+           6  atom types 
+           0  bond types 
+           0  angle types 
+           0  dihedral types 
+                         
+       0.000    50.000   xlo xhi  
+       0.000    50.000   ylo yhi  
+       0.000    50.000   zlo zhi    
+
+ Atoms 
+
+      1		5	1	1	4	46	25
+      2		5	2	-1	46	46	25
+      3		5	3	1	46	4	25
+      4		5	4	-1	4	4	25
+      5		5	5	1	4	25	25
+      6		5	6	-1	46	25	25
